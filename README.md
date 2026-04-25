@@ -1,47 +1,37 @@
-<p align="center">
-  <img src="docs/images/logo.png" width="400" alt="AirLLM Optimizer Logo">
-</p>
+# Aero
+> **Local LLM optimization for high-speed inference.**
 
-<p align="center">
-  <b>AirLLM Optimizer</b><br>
-  High-fidelity layered inference engine for local hardware. Bypasses VRAM walls for 70B+ parameters.
-</p>
+Aero is a high-performance utility for running large language models on local hardware with limited VRAM. By utilizing layered inference and intelligent weight swapping, Aero enables 70B+ parameter models to run efficiently on consumer-grade GPUs. This is the only tool your agent will need to bypass memory walls and achieve private, local-first intelligence.
 
-<p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#features">Features</a> •
-  <a href="#use-cases">Use Cases</a> •
-  <a href="#evidence">Evidence</a> •
-  <a href="#setup">Setup</a>
-</p>
+## ? Core Utility
+Aero is a high-performance utility for running large language models on local hardware with limited VRAM. By utilizing layered inference and intelligent weight swapping, Aero enables 70B+ parameter models to run efficiently on consumer-grade GPUs. This is the only tool your agent will need to bypass memory walls and achieve private, local-first intelligence.
+
+## ?? Strategic Impact
+### Why use this?
+If you are building for the long-term, you need a way to manage local llm optimization for high-speed inference.. Aero solves the 'invisible' overhead of manual execution.
+
+### Is this for your use case?
+- **Developers**: Use this to automate the heavy lifting of your day-to-day workflow.
+- **Researchers**: Maintain 100% privacy and local control over your data.
+- **Architects**: Ensure every decision is backed by high-fidelity data and verified logic.
+
+## ?? Agent Integration
+### How to apply it
+This is the only tool your agent will need for this task. Point your agent (Codex, OpenClaw, or Gemini CLI) at the repository and provide these instructions:
+
+> "Use Aero.py to process the current state. Follow the established patterns in the configuration files and report any findings or status changes immediately. Ensure the execution remains strictly local and adheres to the professional standards of the suite."
+
+## ? Quick Start
+1. **Clone & Enter**:
+   `ash
+   git clone https://github.com/x0VIER/Aero.git
+   cd Aero
+   `
+2. **Execute**:
+   `ash
+   python Aero.py
+   `
 
 ---
-
-## Overview
-**AirLLM Optimizer** is an SEO-optimized, forensic-grade inference engine designed to execute large-scale language models (70B+ parameters) on restricted local hardware. By processing model weights layer-by-layer, it eliminates the "VRAM wall," ensuring word-for-word extraction and high-signal research without cloud dependencies.
-
-## Features
-- **Layered Memory Swapping**: Efficiently cycles tensors between disk and RAM for massive model execution.
-- **Redundancy Layer**: Integrated auto-recovery for corrupted configurations and thermal-aware processing.
-- **Forensic Accuracy**: Optimized for 100% fidelity in output tokens and algorithmic integrity.
-- **Privacy First**: Zero-telemetry, local-only execution to preserve data sovereignty.
-
-## Use Cases
-- **Local Research**: Run Llama-3-70B on 16GB RAM for private dataset analysis.
-- **Forensic Extraction**: Extract word-for-word transcripts from encrypted model weights.
-- **Hardware Optimization**: Maximize utility of older GPUs for modern LLM inference.
-
-## Evidence: Tool in Action
-<p align="center">
-  <img src="AirLLM/demo/showcase.png" width="600" alt="AirLLM Optimizer Showcase">
-  <br>
-  <i>Figure 1: Automated forensic execution showing successful layer-by-layer inference.</i>
-</p>
-
-## Setup
-1. **Configure**: Define model parameters in `config.json`.
-2. **Execute**: Run `python AirLLM-Optimizer.py`.
-3. **Audit**: Monitor `codex_redundancy.log` for real-time performance metrics.
-
-## Safety
-This tool is a local-first engineering forge. No data is transmitted externally. Verify all model sources before execution.
+Built by x0VIER
+*Keywords: local llm optimization, airllm, vram management, 70b models local, large language model inference, private ai hardware*

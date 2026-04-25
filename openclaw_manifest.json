@@ -1,0 +1,17 @@
+{
+    "name": "airllm-optimizer",
+    "display_name": "AirLLM-Optimizer",
+    "description": "Accurate layered inference engine for local hardware.",
+    "version": "1.2.0",
+    "author": "x0VIER",
+    "type": "skill",
+    "entrypoint": "python AirLLM-Optimizer.py",
+    "capabilities": [
+        "local_execution",
+        "state_management"
+    ],
+    "instructions": [
+        "Run AirLLM-Optimizer.py before starting a new session to establish a baseline.",
+        "Use AirLLM-Optimizer.py after changes to verify integrity and report drift."
+    ]
+}

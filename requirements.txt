@@ -1,0 +1,5 @@
+psutil
+torch>=2.0.0
+transformers
+accelerate
+huggingface_hub
